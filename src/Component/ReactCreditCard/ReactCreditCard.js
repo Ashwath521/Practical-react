@@ -9,7 +9,7 @@ function ReactCreditCard() {
   const [expiry, setExpiry] = useState("");
   const [cvc, setCvc] = useState("");
   const [focus, setFocus] = useState("");
-
+  // this for credit cards
   return (
     <div className="App">
       <Cards
