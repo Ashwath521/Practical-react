@@ -1,10 +1,9 @@
-// import ReactColorPicker from "./Component/ReactColorPicker/ReactColorPicker";
-import ReactCreditCard from "./Component/ReactCreditCard/ReactCreditCard";
 import "./App.css";
+import Bar from "./Component/ReactPlotly/Bar";
 function App() {
   return (
     <div className="App">
-      <ReactCreditCard />
+      <Bar />
     </div>
   );
 }
